@@ -155,21 +155,18 @@ button:active {
         margin-left:  10px; 
         margin-right: 10px;
         border: 3px solid #6874b0;
-        border-radius: 10px;
-        font-family: monospace;
-        
     }
 
     h2{
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
         margin-top: 20px;
-        font-size: 20px;
+        font-size: 10px;
         
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .image1{
@@ -178,11 +175,21 @@ button:active {
     }
 
     .input-section-keliling {
-        display: flex;
-        flex-direction: column;
-        height: 320px;
-        border: 5px solid #6874b0  ;
-        border-radius: 10px;
+        border: 3px solid #6874b0;
+        margin-right: 50px;
+        margin-left: 50px;
+        height: auto;
+    }
+
+    .input-section-luas{
+        border: 3px solid #6874b0;
+        margin-right: 50px;
+        margin-left: 50px;
+        height: auto;
+    }
+
+    button{
+        font-size: 8px;
     }
 
     .input-section-luas {
@@ -208,17 +215,17 @@ button:active {
        }
 
     label {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     #hasil-keliling {
-        font-size: 15px;
+        font-size: 10px;
         padding: 10px;
         margin-top: 10px;
     }
 
     #hasil-luas {
-        font-size: 15px;
+        font-size: 10px;
         padding: 10px;
         margin-top: 10px
     }
